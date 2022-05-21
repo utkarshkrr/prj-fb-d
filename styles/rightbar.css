@@ -1,0 +1,98 @@
+.rightbar{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 60px;
+  left: 1120px;
+  bottom: 0;
+  font-family: Roboto, Arial;
+  width: 400px;
+  padding: 5px;
+  margin-bottom: 20px;
+  overflow: scroll;
+}
+      .rightbar::-webkit-scrollbar{
+        display: none;
+      }
+  .contacts,
+  .grp-conversations{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 10px;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-color: gray;
+  }
+    .contacts-header,
+    .grp-conversations-header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 350px;
+      height: 35px;
+      padding: 5px 5px;
+      font-size: 18px;
+      font-weight: 500;
+    }
+      .contacts-actions{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+        .contacts-action-icon{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+          height: 30px;
+          width: 30px;
+          border-radius: 25px;
+          margin-right: 5px;
+          cursor: pointer;
+          transition: all 0.2s;
+        }
+          .contacts-action-icon:hover{
+            background-color: rgba(0,0,0,0.1);
+          }
+          .contacts-action-icon-img{
+            height: 20px;
+            width: 20px;
+          }
+          .contacts-action-icon:hover .tooltip{
+            opacity: 1;
+          }
+    .contact,
+    .grp-conversation{
+      display: flex;
+      padding: 5px;
+      align-items: center;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.2s;
+      margin: 2px 0px;
+    }
+      .contact:hover,
+      .grp-conversation:hover{
+        background-color: rgba(0,0,0,0.1);
+      }
+      .contact-pic,
+      .grp-conversation-pic{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 40px;
+      }
+        .contact-pic-img,
+        .grp-conversation-pic-img{
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          border-radius: 25px;
+        }
+        .contact-name,
+        .grp-conversation-name{
+          margin: 0px 10px;
+          font-weight: 500;
+        }

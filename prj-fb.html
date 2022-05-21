@@ -1,0 +1,1270 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Facebook Demo
+    </title>
+    <link rel="icon" href="icons/fb logo.svg"
+          type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/leftbar.css">
+    <link rel="stylesheet" href="styles/mid.css">
+    <link rel="stylesheet" href="styles/rightbar.css">
+
+  </head>
+  <body>
+    <header class="header">
+
+      <div class="left-section">
+        <div class="fb-logo-container">
+          <a href="https://www.facebook.com">
+            <img class="fb-logo" src="icons/fb logo.svg">
+          </a>
+          <div class="tooltip">
+            FB Home
+          </div>
+        </div>
+        <div class="fb-search-container">
+          <img class="fb-search-icon" src="icons/search.svg">
+          <input class="fb-search" 
+                placeholder="Search Facebook">
+        </div>
+      </div>
+
+      <div class="mid-section">
+
+        <a href="https://www.facebook.com/">
+          <div class="shortcuts-home">
+            <img class="shortcut-icon-home" src="icons/home.svg">
+            <img class="shortcut-selected-bar" src="icons/bar.svg">
+            <div class="tooltip">
+              Home
+            </div>
+          </div>
+        </a>
+        <a href="https://www.facebook.com/friends/">
+          <div class="shortcuts">
+            <img class="shortcut-icon" src="icons/friends.svg">
+            <div class="tooltip">
+              Friends
+            </div>
+          </div>
+        </a>
+        <a href="https://www.facebook.com/watch/?ref=tab">
+          <div class="shortcuts">
+            <img class="shortcut-icon" src="icons/watch.svg">
+            <div class="notification-count">
+              9+
+            </div>
+            <div class="tooltip">
+              Watch
+            </div>
+          </div>
+        </a>
+        <a href="https://www.facebook.com/marketplace/?ref=app_tab">
+          <div class="shortcuts">
+            <img class="shortcut-icon" src="icons/marketplace.svg">
+            <div class="tooltip">
+              Marketplace
+            </div>
+          </div>
+        </a>
+        <a href="https://www.facebook.com/gaming/?ref=games_tab">
+          <div class="shortcuts">
+            <img class="shortcut-icon" src="icons/gaming.svg">
+            <div class="notification-count">
+              5
+            </div>
+            <div class="tooltip">
+              Gaming
+            </div>
+          </div>
+        </a>
+
+      </div>
+
+      <div class="right-section">
+
+        <a style="text-decoration:none;
+                  color:black;"
+           href="https://www.facebook.com/me/">
+          <div class="current-user">
+            <div class="current-user-pic">
+              <img class="current-user-pic-img" 
+                  src="pictures/nikola-tesla1.webp">
+            </div>
+            <div class="current-user-name">
+              Nikola
+            </div>
+          </div>
+        </a>
+
+        <div class="right-toggles">
+          <img class="right-toggles-img"
+              src="icons/menu9dot.svg">
+              <div class="tooltip">
+                Menu
+              </div>
+        </div>
+        <div class="right-toggles">
+          <div class="notification-count">
+            3
+          </div>
+          <img class="right-toggles-img"
+              src="icons/messenger.svg">
+              <div class="tooltip">
+                Messenger
+              </div>
+        </div>
+        <a href="https://www.facebook.com/notifications/">        
+          <div class="right-toggles">
+            <div class="notification-count">
+              7
+            </div>
+            <img class="right-toggles-img"
+                src="icons/notification.svg">
+                <div class="tooltip">
+                  Notifications
+                </div>
+          </div>
+        </a>        
+        <div class="right-toggles">
+          <img class="right-toggles-img"
+              src="icons/arrow-drop-down.svg">
+              <div class="tooltip">
+                Your Profile
+              </div>
+        </div>
+
+      </div>
+
+    </header>
+
+    <main class="main-contents"><!--MAIN-->
+
+      <div class="leftbar"><!--LEFTBAR-->
+
+        <div class="leftbar-toggles">
+
+          <a style="text-decoration: none;" href="https://www.facebook.com/me/">
+            <div class="current-profile">
+              <div class="current-profile-pic">
+                <img class="current-profile-pic-img" src="pictures/nikola-tesla1.webp">
+              </div>
+              <div class="current-profile-name">
+                Nikola Tesla
+              </div>
+            </div>
+          </a>
+          
+          <a style="text-decoration: none;"  href="https://www.facebook.com/friends/">
+            <div class="leftbar-toggle">
+              <div class="leftbar-toggle-icon">
+                <img class="leftbar-toggle-icon" src="icons/friend-rq.svg">
+              </div>
+              <div class="leftbar-toggle-name">
+                Friends
+              </div>
+            </div>
+          </a>
+
+          <a style="text-decoration: none;"  href="https://www.facebook.com/groups/?ref=bookmarks">
+            <div class="leftbar-toggle">
+              <div class="leftbar-toggle-icon">
+                <img class="leftbar-toggle-icon" src="icons/group.svg">
+              </div>
+              <div class="leftbar-toggle-name">
+                Groups
+              </div>
+            </div>
+          </a>
+
+          <a style="text-decoration: none;"  href="https://www.facebook.com/marketplace/?ref=bookmark">
+            <div class="leftbar-toggle">
+              <div class="leftbar-toggle-icon">
+                <img class="leftbar-toggle-icon" src="icons/marketplace2.svg">
+              </div>
+              <div class="leftbar-toggle-name">
+                Marketplace
+              </div>
+            </div>
+          </a>
+
+          <a style="text-decoration: none;"  href="https://www.facebook.com/watch/">
+            <div class="leftbar-toggle">
+              <div class="leftbar-toggle-icon">
+                <img class="leftbar-toggle-icon" src="icons/watch2.svg">
+              </div>
+              <div class="leftbar-toggle-name">
+                Watch
+              </div>
+            </div>
+          </a>
+
+          <a style="text-decoration: none;"  href="https://www.facebook.com/onthisday/?source=bookmark">
+            <div class="leftbar-toggle">
+              <div class="leftbar-toggle-icon">
+                <img class="leftbar-toggle-icon" src="icons/memories.svg">
+              </div>
+              <div class="leftbar-toggle-name">
+                Memories
+              </div>
+            </div>
+          </a>
+
+          <a style="text-decoration: none;"  href="https://www.facebook.com/saved/?cref=28">
+            <div class="leftbar-toggle">
+              <div class="leftbar-toggle-icon">
+                <img class="leftbar-toggle-icon" src="icons/saved.svg">
+              </div>
+              <div class="leftbar-toggle-name">
+                Saved
+              </div>
+            </div>
+          </a>
+
+          <a style="text-decoration: none;"  href="https://www.facebook.com/pages/?category=top&ref=bookmarks">
+            <div class="leftbar-toggle">
+              <div class="leftbar-toggle-icon">
+                <img class="leftbar-toggle-icon" src="icons/pages.svg">
+              </div>
+              <div class="leftbar-toggle-name">
+                Pages
+              </div>
+            </div>
+          </a>
+          
+          <a style="text-decoration: none;"  href="https://www.facebook.com/pages/?category=top&ref=bookmarks">
+            <div class="leftbar-toggle">
+              <div class="leftbar-toggle-icon">
+                <img class="leftbar-toggle-icon" src="icons/favourite.svg">
+              </div>
+              <div class="leftbar-toggle-name">
+                Favourite
+              </div>
+            </div>
+          </a>
+
+          <div class="leftbar-toggle">
+            <div class="leftbar-toggle-icon">
+              <img class="leftbar-toggle-icon" src="icons/arrowdn.svg">
+            </div>
+            <div class="leftbar-toggle-name">
+              See More
+            </div>
+          </div>
+
+        </div><!--leftbar-toggles-->
+
+        <div class="left-shortcuts">
+          
+          <div class="your-shortcuts-txt">
+            Your shortcuts
+          </div>
+
+          <div class="left-shortcut">
+            <div class="left-shortcut-pic">
+              <img class="left-shortcut-pic-img" src="icons/game.svg">
+            </div>
+            <div class="left-shortcut-name">
+              Sudoku
+            </div>
+          </div>
+
+          <div class="left-shortcut">
+            <div class="left-shortcut-pic">
+              <img class="left-shortcut-pic-img" src="icons/puzzle.svg">
+            </div>
+            <div class="left-shortcut-name">
+              Puzzle
+            </div>
+          </div>
+
+          <div class="left-shortcut">
+            <div class="left-shortcut-pic">
+              <img class="left-shortcut-pic-img" src="icons/music-listening.svg">
+            </div>
+            <div class="left-shortcut-name">
+              Music Pro
+            </div>
+          </div>
+
+        </div><!--left-shortcuts-->
+
+        <div class="website-details">
+          <a class="website-details-link" href="https://www.facebook.com/privacy/explanation/" target="_blank">
+            Privacy
+          </a>
+          &#183;
+          <a class="website-details-link" href="https://www.facebook.com/policies?ref=pf" target="_blank">
+            Terms
+          </a>
+          &#183;
+          <a class="website-details-link" href="https://www.facebook.com/business/" target="_blank">
+            Advertising
+          </a>
+          &#183;
+          <a class="website-details-link" href="https://www.facebook.com/help/568137493302217" target="_blank">
+            Ad Choices
+          </a>
+          &#183;
+          <a class="website-details-link" href="https://www.facebook.com/policies/cookies/" target="_blank">
+            Cookies
+          </a>
+          &#183;
+          <span style="cursor:pointer">More</span>
+          &#183;
+          Meta &#169; 2022
+        </div><!--website-details-->
+
+      </div><!--leftbar-->
+
+      <div class="mid"><!--MID-->
+
+        <div class="story-container">
+
+          <a style="color: black;
+                    text-decoration: none;"
+                     href="https://www.facebook.com/stories/create">
+            <div class="self-story">
+              <div class="self-story-pic">
+                <img class="self-story-pic-img" src="pictures/nikola-tesla1.webp">
+              </div>
+              <div class="create-story">
+                Create story
+              </div>
+              <div class="create-icon">
+                <img class="create-icon-img" src="icons/plus.svg">
+              </div>
+            </div>
+          </a>
+          
+          <div class="story">
+            <div class="story-pic">
+              <img class="story-pic-img" src="pictures/prithvi2.webp">
+            </div>
+            <div class="story-name">
+              Abdul Kalam
+            </div>
+            <div class="story-profile-pic">
+              <img class="story-profile-pic-img" src="pictures/abdulkalam1.webp">
+            </div>
+          </div>          
+          <div class="story">
+            <div class="story-pic">
+              <img class="story-pic-img" src="pictures/atbomb.webp">
+            </div>
+            <div class="story-name">
+              Albert Einstein
+            </div>
+            <div class="story-profile-pic">
+              <img class="story-profile-pic-img" src="pictures/alberteinstein1.webp">
+            </div>
+          </div>          
+          <div class="story">
+            <div class="story-pic">
+              <img class="story-pic-img" src="pictures/analyticalengine.webp">
+            </div>
+            <div class="story-name">
+              Charles Babbage
+            </div>
+            <div class="story-profile-pic">
+              <img class="story-profile-pic-img" src="pictures/babbage.webp">
+            </div>
+          </div>          
+          <div class="story">
+            <div class="story-pic">
+              <img class="story-pic-img" src="pictures/bulb.webp">
+            </div>
+            <div class="story-name">
+              Thomas <div>Alva Edison</div>
+            </div>
+            <div class="story-profile-pic">
+              <img class="story-profile-pic-img" src="pictures/edison.webp">
+            </div>
+          </div>
+
+          <div class="more-arrow">
+            <img class="more-arrow-icon-img" src="icons/right-arrow.svg">
+            <div class="more-arrow-tooltip">
+              More
+            </div>
+          </div>
+
+        </div><!--story-container-->
+
+        <div class="status">
+
+          <div class="status-container">
+            <a href="https://www.facebook.com/me/">
+              <div class="status-profile-pic">
+                <img class="status-profile-pic-img" src="pictures/nikola-tesla1.webp">
+              </div>
+            </a>
+            <input class="status-content" placeholder="What's on your mind, Nikola?">
+          </div>
+
+          <div class="status-actions">
+
+            <div class="status-action">
+              <div class="status-action-icon">
+                <img class="status-action-icon-img" src="icons/live-video.svg">
+              </div>
+              <div class="status-action-name">
+                Live Video
+              </div>
+            </div>
+            <div class="status-action">
+              <div class="status-action-icon">
+                <img class="status-action-icon-img" src="icons/picture.svg">
+              </div>
+              <div class="status-action-name">
+                Photo/video
+              </div>
+            </div>
+            <div class="status-action">
+              <div class="status-action-icon">
+                <img class="status-action-icon-img" src="icons/smiley.svg">
+              </div>
+              <div class="status-action-name">
+                Feeling/activity
+              </div>
+            </div>
+
+          </div>
+
+        </div><!--status-->
+
+        <div class="create-room">
+
+          <div class="create-room-button-container">
+            <div class="create-room-button">
+              <img class="create-room-img" src="icons/create-room.svg">
+              Create Room
+            </div>
+          </div>
+          <div class="create-room-profile">
+            <div class="create-room-profile-pic">
+              <img class="create-room-profile-pic-img" src="pictures/abdulkalam1.webp">
+            </div>
+            <div class="create-room-online"></div>
+          </div>
+          <div class="create-room-profile">
+            <div class="create-room-profile-pic">
+              <img class="create-room-profile-pic-img" src="pictures/alberteinstein1.webp">
+            </div>
+            <div class="create-room-online"></div>
+          </div>
+          <div class="create-room-profile">
+            <div class="create-room-profile-pic">
+              <img class="create-room-profile-pic-img" src="pictures/babbage.webp">
+            </div>
+            <div class="create-room-online"></div>
+          </div>
+          <div class="create-room-profile">
+            <div class="create-room-profile-pic">
+              <img class="create-room-profile-pic-img" src="pictures/edison.webp">
+            </div>
+            <div class="create-room-online"></div>
+          </div>
+
+        </div><!--create-room-->
+
+        <div class="post"><!--POST-->
+
+          <div class="post-header">
+            <div class="post-header-contents">
+              <div class="post-author">
+                <div class="post-author-pic">
+                  <img class="post-author-pic-img" src="pictures/abdulkalam1.webp">
+                </div>
+                <div class="post-details">
+                  <div class="post-author-name">
+                    Abdul Kalam
+                  </div>
+                  <div class="post-visibility">
+                    1h &#183; <img class="post-visibility-icon" src="icons/world.svg">
+                  </div>
+                </div>
+              </div>
+              <div class="post-action">
+                <img class="post-action-icon" src="icons/menu3dot.svg">
+              </div>
+            </div>
+            <div class="post-description">
+              Prithivi missile successfully test fired from DRDO testing facility. The missile hit the target with an accuracy of 97%.
+            </div>
+          </div><!--post-header-->
+
+          <div class="post-content">
+            <img class="post-content-img" src="pictures/prithvi2.webp">
+          </div>
+
+          <div class="post-stats">
+
+            <div class="most-reactions">
+              <img class="most-reactions-img" src="icons/love.svg">
+              <img class="most-reactions-img" src="icons/wow.svg">
+              <div class="views">27M</div>
+            </div>
+
+            <div class="comshare">
+              <div class="comshare-txt">9M Comments</div>
+               <div> &#183; </div>
+               <div class="comshare-txt">6M Shares</div> 
+            </div>
+
+          </div><!--post-stats-->
+
+          <div class="post-reactions">
+
+            <div class="post-reaction-like">
+              <img class="post-reaction-icon" src="icons/like-post.svg">
+              Like
+              <div class="post-reaction-like-tooltip">
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/like.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Like
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/love.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Love
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/care.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Care
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/haha.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Haha
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/wow.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Wow
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/sad.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Sad
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/angry.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Angry
+                  </div>
+                </div>
+
+              </div><!--post-reaction-like-tooltip-->
+
+            </div><!--post-reaction-like-->
+
+            <div class="post-reaction">
+              <img class="post-reaction-icon" src="icons/comment.svg">
+              Comment
+            </div>
+            <div class="post-reaction">
+              <img class="post-reaction-icon" src="icons/share.svg">
+              Share
+            </div>
+            <div class="post-reaction-profile">
+              <img class="post-reaction-profile-img" src="pictures/nikola-tesla1.webp">
+              <img class="post-reaction-profile-img" src="icons/arrow-drop-down.svg">
+            </div>
+          </div><!--post-reactions-->
+
+        </div><!--post-->
+
+        <div class="post"><!--POST-->
+
+          <div class="post-header">
+            <div class="post-header-contents">
+              <div class="post-author">
+                <div class="post-author-pic">
+                  <img class="post-author-pic-img" src="pictures/alberteinstein1.webp">
+                </div>
+                <div class="post-details">
+                  <div class="post-author-name">
+                    Albert Einstein
+                  </div>
+                  <div class="post-visibility">
+                    9h &#183; <img class="post-visibility-icon" src="icons/world.svg">
+                  </div>
+                </div>
+              </div>
+              <div class="post-action">
+                <img class="post-action-icon" src="icons/menu3dot.svg">
+              </div>
+            </div>
+            <div class="post-description">
+              Remembering that day when the first warhead was tested.
+            </div>
+          </div><!--post-header-->
+
+          <div class="post-content">
+            <img class="post-content-img" src="pictures/atbomb.webp">
+          </div>
+
+          <div class="post-stats">
+
+            <div class="most-reactions">
+              <img class="most-reactions-img" src="icons/love.svg">
+              <img class="most-reactions-img" src="icons/wow.svg">
+              <div class="views">12M</div>
+            </div>
+
+            <div class="comshare">
+              <div class="comshare-txt">2M Comments</div>
+               <div> &#183; </div>
+               <div class="comshare-txt">903K Shares</div> 
+            </div>
+
+          </div><!--post-stats-->
+
+          <div class="post-reactions">
+
+            <div class="post-reaction-like">
+              <img class="post-reaction-icon" src="icons/like-post.svg">
+              Like
+              <div class="post-reaction-like-tooltip">
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/like.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Like
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/love.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Love
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/care.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Care
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/haha.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Haha
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/wow.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Wow
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/sad.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Sad
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/angry.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Angry
+                  </div>
+                </div>
+
+              </div><!--post-reaction-like-tooltip-->
+
+            </div><!--post-reaction-like-->
+
+            <div class="post-reaction">
+              <img class="post-reaction-icon" src="icons/comment.svg">
+              Comment
+            </div>
+            <div class="post-reaction">
+              <img class="post-reaction-icon" src="icons/share.svg">
+              Share
+            </div>
+            <div class="post-reaction-profile">
+              <img class="post-reaction-profile-img" src="pictures/nikola-tesla1.webp">
+              <img class="post-reaction-profile-img" src="icons/arrow-drop-down.svg">
+            </div>
+          </div><!--post-reactions-->
+
+        </div><!--post-->
+        
+        <div class="post"><!--POST-->
+
+          <div class="post-header">
+            <div class="post-header-contents">
+              <div class="post-author">
+                <div class="post-author-pic">
+                  <img class="post-author-pic-img" src="pictures/rakeshdhawan.webp">
+                </div>
+                <div class="post-details">
+                  <div class="post-author-name">
+                    Rakesh Dhawan
+                  </div>
+                  <div class="post-visibility">
+                    23min &#183; <img class="post-visibility-icon" src="icons/world.svg">
+                  </div>
+                </div>
+              </div>
+              <div class="post-action">
+                <img class="post-action-icon" src="icons/menu3dot.svg">
+              </div>
+            </div>
+            <div class="post-description">
+              Mars Orbiter Mission(Mangalyaan) final design completed.
+            </div>
+          </div><!--post-header-->
+
+          <div class="post-content">
+            <img class="post-content-img" src="pictures/mangalyaan.webp">
+          </div>
+
+          <div class="post-stats">
+
+            <div class="most-reactions">
+              <img class="most-reactions-img" src="icons/love.svg">
+              <img class="most-reactions-img" src="icons/wow.svg">
+              <div class="views">16M</div>
+            </div>
+
+            <div class="comshare">
+              <div class="comshare-txt">5M Comments</div>
+               <div> &#183; </div>
+               <div class="comshare-txt">3M Shares</div> 
+            </div>
+
+          </div><!--post-stats-->
+
+          <div class="post-reactions">
+
+            <div class="post-reaction-like">
+              <img class="post-reaction-icon" src="icons/like-post.svg">
+              Like
+              <div class="post-reaction-like-tooltip">
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/like.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Like
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/love.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Love
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/care.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Care
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/haha.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Haha
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/wow.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Wow
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/sad.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Sad
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/angry.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Angry
+                  </div>
+                </div>
+
+              </div><!--post-reaction-like-tooltip-->
+
+            </div><!--post-reaction-like-->
+
+            <div class="post-reaction">
+              <img class="post-reaction-icon" src="icons/comment.svg">
+              Comment
+            </div>
+            <div class="post-reaction">
+              <img class="post-reaction-icon" src="icons/share.svg">
+              Share
+            </div>
+            <div class="post-reaction-profile">
+              <img class="post-reaction-profile-img" src="pictures/nikola-tesla1.webp">
+              <img class="post-reaction-profile-img" src="icons/arrow-drop-down.svg">
+            </div>
+          </div><!--post-reactions-->
+
+        </div><!--post-->
+        
+        <div class="post"><!--POST-->
+
+          <div class="post-header">
+            <div class="post-header-contents">
+              <div class="post-author">
+                <div class="post-author-pic">
+                  <img class="post-author-pic-img" src="pictures/homibhabha.webp">
+                </div>
+                <div class="post-details">
+                  <div class="post-author-name">
+                    Homi Jehangir Bhabha
+                  </div>
+                  <div class="post-visibility">
+                    5y &#183; <img class="post-visibility-icon" src="icons/world.svg">
+                  </div>
+                </div>
+              </div>
+              <div class="post-action">
+                <img class="post-action-icon" src="icons/menu3dot.svg">
+              </div>
+            </div>
+            <div class="post-description">
+              India is now a nuclear state.
+            </div>
+          </div><!--post-header-->
+
+          <div class="post-content">
+            <img class="post-content-img" src="pictures/nuclearplant.webp">
+          </div>
+
+          <div class="post-stats">
+
+            <div class="most-reactions">
+              <img class="most-reactions-img" src="icons/love.svg">
+              <img class="most-reactions-img" src="icons/wow.svg">
+              <div class="views">96M</div>
+            </div>
+
+            <div class="comshare">
+              <div class="comshare-txt">67M Comments</div>
+               <div> &#183; </div>
+               <div class="comshare-txt">43M Shares</div> 
+            </div>
+
+          </div><!--post-stats-->
+
+          <div class="post-reactions">
+
+            <div class="post-reaction-like">
+              <img class="post-reaction-icon" src="icons/like-post.svg">
+              Like
+              <div class="post-reaction-like-tooltip">
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/like.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Like
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/love.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Love
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/care.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Care
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/haha.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Haha
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/wow.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Wow
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/sad.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Sad
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/angry.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Angry
+                  </div>
+                </div>
+
+              </div><!--post-reaction-like-tooltip-->
+
+            </div><!--post-reaction-like-->
+
+            <div class="post-reaction">
+              <img class="post-reaction-icon" src="icons/comment.svg">
+              Comment
+            </div>
+            <div class="post-reaction">
+              <img class="post-reaction-icon" src="icons/share.svg">
+              Share
+            </div>
+            <div class="post-reaction-profile">
+              <img class="post-reaction-profile-img" src="pictures/nikola-tesla1.webp">
+              <img class="post-reaction-profile-img" src="icons/arrow-drop-down.svg">
+            </div>
+          </div><!--post-reactions-->
+
+        </div><!--post-->
+        
+        <div class="post"><!--POST-->
+
+          <div class="post-header">
+            <div class="post-header-contents">
+              <div class="post-author">
+                <div class="post-author-pic">
+                  <img class="post-author-pic-img" src="pictures/cvraman.webp">
+                </div>
+                <div class="post-details">
+                  <div class="post-author-name">
+                    C V Raman
+                  </div>
+                  <div class="post-visibility">
+                    3w &#183; <img class="post-visibility-icon" src="icons/world.svg">
+                  </div>
+                </div>
+              </div>
+              <div class="post-action">
+                <img class="post-action-icon" src="icons/menu3dot.svg">
+              </div>
+            </div>
+            <div class="post-description">
+              Raman Effect.
+            </div>
+          </div><!--post-header-->
+
+          <div class="post-content">
+            <img class="post-content-img" src="pictures/ramaneffect.webp">
+          </div>
+
+          <div class="post-stats">
+
+            <div class="most-reactions">
+              <img class="most-reactions-img" src="icons/love.svg">
+              <img class="most-reactions-img" src="icons/wow.svg">
+              <div class="views">6M</div>
+            </div>
+
+            <div class="comshare">
+              <div class="comshare-txt">2M Comments</div>
+               <div> &#183; </div>
+               <div class="comshare-txt">1M Shares</div> 
+            </div>
+
+          </div><!--post-stats-->
+
+          <div class="post-reactions">
+
+            <div class="post-reaction-like">
+              <img class="post-reaction-icon" src="icons/like-post.svg">
+              Like
+              <div class="post-reaction-like-tooltip">
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/like.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Like
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/love.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Love
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/care.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Care
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/haha.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Haha
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/wow.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Wow
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/sad.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Sad
+                  </div>
+                </div>
+                <div class="post-reaction-like-tooltip-icons">
+                  <img class="post-reaction-like-tooltip-icons-img" src="icons/angry.svg">
+                  <div class="post-reaction-like-tooltip-icons-tooltip">
+                    Angry
+                  </div>
+                </div>
+
+              </div><!--post-reaction-like-tooltip-->
+
+            </div><!--post-reaction-like-->
+
+            <div class="post-reaction">
+              <img class="post-reaction-icon" src="icons/comment.svg">
+              Comment
+            </div>
+            <div class="post-reaction">
+              <img class="post-reaction-icon" src="icons/share.svg">
+              Share
+            </div>
+            <div class="post-reaction-profile">
+              <img class="post-reaction-profile-img" src="pictures/nikola-tesla1.webp">
+              <img class="post-reaction-profile-img" src="icons/arrow-drop-down.svg">
+            </div>
+          </div><!--post-reactions-->
+
+        </div><!--post-->
+
+      </div> <!--mid-->
+
+      <div class="rightbar"><!--RIGHTBAR-->
+
+        <div class="contacts">
+
+          <div class="contacts-header">
+            <div class="contacts-txt">
+              Contacts
+            </div>
+            <div class="contacts-actions">
+              <div class="contacts-action-icon">
+                <img class="contacts-action-icon-img" src="icons/create-room.svg">
+                <div class="tooltip">
+                  New Room
+                </div>
+              </div>
+              <div class="contacts-action-icon">
+                <img class="contacts-action-icon-img" src="icons/search.svg">
+                <div class="tooltip">
+                  Search by name or group
+                </div>
+              </div>
+              <div class="contacts-action-icon">
+                <img class="contacts-action-icon-img" src="icons/menu3dot.svg">
+                <div class="tooltip">
+                  Options
+                </div>
+              </div>
+            </div>
+          </div><!--contacts-header-->
+
+          <div class="contact">
+            <div class="contact-pic">
+              <img class="contact-pic-img" src="pictures/abdulkalam1.webp">
+            </div>
+            <div class="contact-name">
+              Abdul Kalam
+            </div>
+          </div><!--contact-->
+          <div class="contact">
+            <div class="contact-pic">
+              <img class="contact-pic-img" src="pictures/rakeshdhawan.webp">
+            </div>
+            <div class="contact-name">
+              Rakesh Dhawan
+            </div>
+          </div><!--contact-->
+          <div class="contact">
+            <div class="contact-pic">
+              <img class="contact-pic-img" src="pictures/cvraman.webp">
+            </div>
+            <div class="contact-name">
+              C V Raman
+            </div>
+          </div><!--contact-->
+          <div class="contact">
+            <div class="contact-pic">
+              <img class="contact-pic-img" src="pictures/homibhabha.webp">
+            </div>
+            <div class="contact-name">
+              Homi Jehangir Bhabha
+            </div>
+          </div><!--contact-->
+          <div class="contact">
+            <div class="contact-pic">
+              <img class="contact-pic-img" src="pictures/stephenhawking.webp">
+            </div>
+            <div class="contact-name">
+              Stephen Hawking
+            </div>
+          </div><!--contact-->
+          <div class="contact">
+            <div class="contact-pic">
+              <img class="contact-pic-img" src="pictures/visveswaraya.webp">
+            </div>
+            <div class="contact-name">
+              Mokshagundam Visvesvaraya
+            </div>
+          </div><!--contact-->
+          <div class="contact">
+            <div class="contact-pic">
+              <img class="contact-pic-img" src="pictures/alberteinstein1.webp">
+            </div>
+            <div class="contact-name">
+              Albert Einstein
+            </div>
+          </div><!--contact-->
+          <div class="contact">
+            <div class="contact-pic">
+              <img class="contact-pic-img" src="pictures/edison.webp">
+            </div>
+            <div class="contact-name">
+              Thomas Alva Edison
+            </div>
+          </div><!--contact-->
+          <div class="contact">
+            <div class="contact-pic">
+              <img class="contact-pic-img" src="pictures/babbage.webp">
+            </div>
+            <div class="contact-name">
+              Charles Babbage
+            </div>
+          </div><!--contact-->
+          <div class="contact">
+            <div class="contact-pic">
+              <img class="contact-pic-img" src="pictures/gwcarver.webp">
+            </div>
+            <div class="contact-name">
+              George Washington Carver
+            </div>
+          </div><!--contact-->
+          <div class="contact">
+            <div class="contact-pic">
+              <img class="contact-pic-img" src="pictures/salimali.webp">
+            </div>
+            <div class="contact-name">
+              Salim Ali
+            </div>
+          </div><!--contact-->
+          <div class="contact">
+            <div class="contact-pic">
+              <img class="contact-pic-img" src="pictures/sarabhai.webp">
+            </div>
+            <div class="contact-name">
+              Vikram Sarabhai
+            </div>
+          </div><!--contact-->
+          <div class="contact">
+            <div class="contact-pic">
+              <img class="contact-pic-img" src="pictures/Vradhakrishnan.webp">
+            </div>
+            <div class="contact-name">
+              Venkatraman Radhakrishnan
+            </div>
+          </div><!--contact-->
+          <div class="contact">
+            <div class="contact-pic">
+              <img class="contact-pic-img" src="pictures/snbose.webp">
+            </div>
+            <div class="contact-name">
+              S N Bose
+            </div>
+          </div><!--contact-->
+          <div class="contact">
+            <div class="contact-pic">
+              <img class="contact-pic-img" src="pictures/ramanujan.webp">
+            </div>
+            <div class="contact-name">
+              Srinivasa Ramanujan
+            </div>
+          </div><!--contact-->
+
+        </div><!--contacts-->
+
+        <div class="grp-conversations">
+
+          <div class="grp-conversations-header">
+            Group Conversations
+          </div>
+
+          <div class="grp-conversation">
+            <div class="grp-conversation-pic">
+              <img class="grp-conversation-pic-img" src="pictures/physics.webp">
+            </div>
+            <div class="grp-conversation-name">
+              Physicists
+            </div>
+          </div><!--grp-conversation-->
+          <div class="grp-conversation">
+            <div class="grp-conversation-pic">
+              <img class="grp-conversation-pic-img" src="pictures/scientists.webp">
+            </div>
+            <div class="grp-conversation-name">
+              Scientists
+            </div>
+          </div><!--grp-conversation-->
+          <div class="grp-conversation">
+            <div class="grp-conversation-pic">
+              <img class="grp-conversation-pic-img" src="pictures/inventors.webp">
+            </div>
+            <div class="grp-conversation-name">
+              Inventors
+            </div>
+          </div><!--grp-conversation-->
+          <div class="grp-conversation">
+            <div class="grp-conversation-pic">
+              <img class="grp-conversation-pic-img" src="icons/plus3.svg">
+            </div>
+            <div class="grp-conversation-name">
+              Create new group
+            </div>
+          </div><!--grp-conversation-->
+
+        </div><!--grp-conversations-->
+
+      </div><!--right-bar-->
+      
+      <!--DISCLAIMER-->
+        <div class="disclaimer">
+          <marquee scrollamount="10">
+            This is a demo created by Utkarsh.
+            All the contents are used for demonstration purposes only.
+            All the credit ges to their respective owners.
+            ||
+            © Copyright Disclaimer under Section 107 of the copyright act 1976,
+              allowance is made for fair use for purposes such as
+              criticism, comment, news reporting, scholarship, and research.
+            Fair use is a use permitted by copyright statute that might otherwise be infringing.
+            Non-profit, educational or personal use tips the balance in favour of fair use.
+          </marquee>
+        </div>
+
+    </main>
+
+  </body>
+</html>
